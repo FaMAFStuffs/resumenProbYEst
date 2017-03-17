@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  16 MAR 2017 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  17 MAR 2017 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,6 +716,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./prob.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `prob.toc'.
@@ -731,66 +737,81 @@ Cap\'{\i }tulo 2.
 [3
 
 ]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 72.
+
+[4] [5]
 Cap\'{\i }tulo 3.
-[4
-
-]
-Cap\'{\i }tulo 4.
-[5
-
-]
-Cap\'{\i }tulo 5.
 [6
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [7
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [8
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 6.
 [9
 
 ]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
+Cap\'{\i }tulo 7.
+[10
+
+]
+Cap\'{\i }tulo 8.
+[11
+
+]
+LaTeX Font Info:    Try loading font information for U+lasy on input line 136.
  (/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<graphics/github.png, id=37, 1204.5pt x 632.3625pt>
+<graphics/github.png, id=50, 1204.5pt x 632.3625pt>
 File: graphics/github.png Graphic file (type png)
  <use graphics/github.png>
-Package pdftex.def Info: graphics/github.png used on input line 47.
+Package pdftex.def Info: graphics/github.png used on input line 143.
 (pdftex.def)             Requested size: 28.45274pt x 14.93674pt.
 
-[10
+[12
 
  <./graphics/github.png (PNG copy)>] (./prob.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4643 strings out of 494447
- 64453 string characters out of 6166766
- 133194 words of memory out of 5000000
- 7873 multiletter control sequences out of 15000+600000
- 38049 words of font info for 39 fonts, out of 8000000 for 9000
+ 4676 strings out of 494447
+ 64818 string characters out of 6166766
+ 139194 words of memory out of 5000000
+ 7898 multiletter control sequences out of 15000+600000
+ 58928 words of font info for 57 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 33i,6n,30p,238b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/
-local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/t
-exlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></u
-sr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
-cal/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/
-texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texliv
-e/2016basic/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2016
-basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on prob.pdf (11 pages, 147418 bytes).
+ 33i,6n,30p,481b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}{/us
+r/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/loc
+al/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texliv
+e/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
+6basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2016basi
+c/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/local/texliv
+e/2016basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/201
+6basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2016bas
+ic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2016basic/te
+xmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016basic/texmf-d
+ist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016basic/texmf-dist/fo
+nts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
+pe1/public/lm/lmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm
+/lmri12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy
+10.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
+>
+Output written on prob.pdf (13 pages, 208118 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,6 +26,102 @@
 
 \chapter{Estadística Descriptiva}
 \chapter{Probabilidad}
+	\section{Modelo Probabilístico}
+		\par \textbf{Espacio Muestral:} Es el conjunto de todos los resultados posibles del experimento. Se lo denota S.
+		\vspace{3mm}
+		\par \textbf{Evento:} Es cualquier subconjunto de S. Si el evento tiene un solo elemento se llama evento simple, si no, es un evento compuesto.
+		\vspace{3mm}
+		\par \textbf{Definición:} Cuando A y B (eventos) no tienen resultados en común, se dice que son eventos mutuamente excluyentes o disjuntos. Además $P(A \cap B) = \emptyset$.
+		\vspace{3mm}
+		\par A se dice \textbf{familia de eventos} si:
+		\begin{itemize}
+			\item $S \in A$
+			\item Si $a \in A \Rightarrow \overline{a} \in A$
+			\item $\lbrace a_{i} \rbrace_{i=1}^{\infty}$ tal que $a_{i} \in A \Rightarrow \cup_{i=1}^{\infty} a_{i} \in A$
+		\end{itemize}
+		
+		\vspace{3mm}
+		\par \textbf{Medida de Probabilidad:} Diremos que $P: A \rightarrow \left[0, 1\right]$, con A evento, es medida de probabilidad si:
+		\begin{itemize}
+			\item $0 \leq P(a) \leq 1 \;\; \forall a \in A$
+			\item $P(S) = 1$
+			\item $\lbrace a_{i} \rbrace_{i=1}^{\infty}$ con $a_{i} \in A \; \forall i$ y mutuamente disjuntos.	
+		\end{itemize}
+		
+		\vspace{3mm}
+		\par \textbf{Modelo Probabilístico:} Es una terna compuesta (S, A, P), espacio muestral, familia de eventos y medida de probabilidad respectivamente.
+		
+		\vspace{3mm}
+		\par \textbf{Propiedades:} Dado un experimento, tenemos (S, A, P) entonces se puede probar que:
+		\begin{itemize}
+			\item Si $A \subset B \Rightarrow P(B - A) = P(B) - P(A) \qquad$ y $\qquad P(B) \geq P(A)$
+			\item $P(\overline{A}) = 1 - P(A) \qquad\qquad P(\emptyset) = 0$
+			\item $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+		\end{itemize}
+		
+	\section{Técnicas de Conteo}
+		\par \textbf{Reglas del producto:} Suponga que un conjunto consiste en colecciones ordenadas de \textit{k} elementos y que hay $n_{1}$ opciones posibles para el primer elemento; para cada elección del primer elemento, hay $n_{2}$ elecciones posibles del segundo elemento; $\dotsc$ para elección posible de los $k - 1$ elementos, hay $n_{k}$ elecciones del \textit{k-esimo} elemento. Entonces hay $n_{1} n_{2} \dotsc n_{k}$ \textit{k-tuplas} posibles.
+		
+		\vspace{3mm}
+		\par \textbf{Definición:} Para cualquier secuencia ordenada de \textit{k} objetos tomada de un conjunto de \textit{n} objetos, el número de \textit{permutaciones} de tamaño \textit{k} que se pueden construir a partir de \textit{n} objetos, se denota $P_{k, n}$ y se define:
+		\[
+			P_{k, n} = \frac{n!}{(n-k)!}
+		\]
+		
+		\vspace{3mm}
+		\par \textbf{Definición:} Dado un conjunto de \textit{n} elementos distintos, cualquier subconjuto no ordenado de tamaño \textit{k} de los objetos, se llama \textit{combinación}. El número de combinaciones de tamaño \textit{k} que se puede formar a partir de \textit{n} objetos, se denota ${n \choose k} $, y se define:
+		\[
+			C_{n, k} = {n \choose k}  = \frac{n!}{k! (n-k)!}
+		\]
+		
+		
+	\section{Probabilidad Condicional}
+		\par Sean A y B eventos tal que $P(B) > 0$, llamamos \textbf{probabilidad condicional} de A dado B, y denotamos $P(A | B)$, porbabilidad de A dado que ocurrio B, al evento:
+		\[
+			P(A | B) = \frac{P(A \cap B)}{P(B)}
+		\]
+		
+		\vspace{3mm}
+		\par \textbf{Definición:} Diremos que A y B son \textit{eventos independientes}, si:
+		\[
+			P(A \cap B) = P(A) \; P(B) \qquad\qquad \textup{con A, B} \in \textbf{a}
+		\]
+	
+		\vspace{3mm}
+		\par \textbf{Proposición:} Sean A y B eventos:
+		\begin{itemize}
+			\item $\overline{A}$ y $\overline{B}$ son independientes.
+			\item $\overline{A}$ y B son independientes.
+			\item A y $\overline{B}$ son independientes.
+		\end{itemize}
+		
+		\vspace{3mm}
+		\par \textbf{Definición:} Diremos que $A_{1}, A_{2} \dotsc A_{n}$ son \textit{mutuamente independientes} si $\forall I \in \lbrace 1, 2, \dotsc n \rbrace$ resulta que:
+		\[
+			P(\cap_{i, j \in I} A_{i, j}) = \prod_{i, j \in I} P(A_{i, j})
+		\]
+		
+		\vspace{3mm}
+		\par \textbf{Ley de la multiplicación:} Sean $\lbrace A_{i} \rbrace_{i=1}^{\infty}$
+eventos en \textbf{a}, entonces:
+		\[
+			P(\cap_{i = 1}^{n} A_{i}) = P(A_{1}) \; P(A_{2} | A_{1}) P(A_{3} | A_{1} \cap A_{2}) \dotsc P(A_{n} | \cap_{i=1}^{n - 1} A_{i})
+		\]
+		
+		\vspace{3mm}
+		\par \textbf{Ley de Probabilidad Total:} Si $\lbrace A_{i} \rbrace_{i=1}^{\infty}$ son eventos disjuntos en \textbf{a} tal que $S = \cup_{i=1}^{n} A_{i}$ entonces $\forall B \in \textbf{a}$:
+		\[
+			P(B) = \sum_{i=1}^{n} P(A_{i}) \; P(B | A_{i})
+		\]
+		
+		\vspace{3mm}
+		\par \textbf{Teorema de Bayes:} Si $\lbrace A_{i} \rbrace_{i=1}^{\infty}$ son eventos disjuntos en \textbf{a} y $P(A_{i}) > 0 \; \forall i$ tal que $S = \cup_{i=1}^{n} A_{i}$, entonces para cualquier otro evento B tal que $P(B) > 0$:
+		\[
+			P(A_{i} | B) = \frac{P(A_{i} \cap B)}{P(B)} = \frac{P(A_{i}) \; P(B | A_{i})}{P(B)}
+		\]
+		donde $P(B) = \sum_{i=1}^{n} P(A_{i}) \; P(B | A_{i})$ como se dijo en la ley de probabilidad total.
+	
+	
 \chapter{Variables Aleatorias Discretas}
 \chapter{Variables Aleatorias Continuas}
 \chapter{Distribución de Probabilidad Conjunta}
