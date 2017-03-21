@@ -24,7 +24,145 @@
 \maketitle
 \tableofcontents
 
-\chapter{Estadística Descriptiva}
+\chapter{Estadstica Descriptiva}
+	\par La estadística está dividida en dos grandes ramas:
+	\begin{itemize}
+		\item \textbf{Estadistica Descriptiva:} Organizar y resumir la información.
+		\item \textbf{Estadistica Inferencial:} Extraer conclusiones acerca de hipótesis planteadas.
+	\end{itemize}
+	
+	\vspace{3mm}
+	\par \textbf{Población:} Colección de sujetos o elementos de interés, puede ser finita o infinita.
+	
+	\vspace{3mm}
+	\par \textbf{Muestra:} Subconjunto de la población elegido al azar, de tamaño muestral \textit{n}.
+	
+	\vspace{3mm}
+	\par \textbf{Tipos de datos de la muestra:}
+	\begin{itemize}
+		\item \textbf{Numéricos:} Discretos (determinados valores), Continuos (valores en un intervalo).
+		\item \textbf{Categóricos:} Ordinal (orden), Nominal (no orden).
+	\end{itemize}
+	
+	\vspace{3mm}
+	\par \textbf{Intervalos de Clase:} Datos $\lbrace x_{1} \leq x_{2} \dotsc x_{n} \rbrace \subset \left[a, b \right]$, con $a < b$.
+	\[
+		\underbrace{\left[ \dotsc \right]}_{I_{1}} \underbrace{\left( \dotsc \right]}_{I_{2}} \underbrace{\left( \dotsc \right]}_{I_{3}} \underbrace{\left( \dotsc \right]}_{I_{4}}
+	\]
+	
+	\vspace{3mm}
+	\par \textbf{Tabla de Distribución de Frecuencia}
+	\begin{table}[htbp]
+		\begin{center}
+			\begin{tabular}{|l|l|l|}
+				\hline
+				Iintervalos de Clase & Frecuencia Absoluta & Frecuencia Relativa \\ \hline
+				$I_{1}$ & 3 & 3/8 \\ \hline
+				$I_{2}$ & + 2 & + 2/8 \\ \hline
+				$I_{3}$ & + 1 & + 1/8 \\ \hline
+				$I_{4}$ & + 2 & + 2/8 \\ \hline
+				Total & 8 & 1 \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+
+	\underline{Referencias:}
+	\begin{itemize}
+		\item MC: Marca de clase. Es el punto medio del intervalo.
+		\item FAA: Frecuencia absoluta acumulada.
+		\item FRA: Frecuencia relativa acumulada.
+	\end{itemize}
+	
+	\vspace{3mm}
+	\par \textbf{Histogramas:} Es el gráfico de mayor difusión y la representación gráfica de la distribución de frecuencia.
+	
+	\par \underline{Como hacerlo:}
+	\begin{itemize}
+		\item En una recta horizontal marcar los \textit{k} intervalos. ($k = \sqrt{n}$).
+		\item En cada intervalo trazar un rectángulo cuya área sea proposicional al número de observaciones en el mismo.
+		\item Altura de los triángulos: $h_{i} = \frac{FR_{i}}{long(IC_{i})}$
+		\item Suma de las áreas de los rectángulos igual a 1.
+	\end{itemize}
+	
+	\vspace{3mm}
+	\par \textbf{Media muestral:} Es el promedio de los $x_{1}, x_{2} \dotsc x_{n}$ puntos, denotada $\overline{x}$:
+	\[
+		\overline{x} = \frac{\sum_{i=1}^{n} x_{i}}{n}
+	\]
+	
+	\vspace{3mm}
+	\par \textbf{Mediana muestral:} Es el valor medio de las observaciones:
+	\begin{equation*}
+		\widetilde{x} =
+	  	\left \lbrace
+	  	\begin{array}{l}
+			n \textup{ impar} \rightarrow \frac{n + 1}{2} \\	
+	    	n \textup{ par} \rightarrow \textup{promedio} \left(\frac{n}{2}, \frac{n}{2} + 1 \right)	
+  		\end{array}
+  		\right.
+	\end{equation*}
+	
+	\vspace{3mm}
+	\par \textbf{Primer Cuartil ($Q_{1}$):} Es la mediana de la primera mitad de las observaciones.
+	
+	\vspace{3mm}
+	\par \textbf{Tercer Cuartil ($Q_{3}$):} Es la mediana de la segunda mitad de las observaciones.
+	
+	\vspace{3mm}
+	\par \textbf{Media Recortada:} Es un termino medio entre $\overline{x}$ y $\widetilde{x}$. Una media recortada 10\% sería quitar el 10\% más pequeño y el 10\% más grande de la muestra para luego calcular la media.
+	
+	\vspace{3mm}
+	\par \textbf{Rango:} Direfencia entre la máxima y la mínima ($x_{n} - x_{1}$).
+	
+	\vspace{3mm}
+	\par \textbf{Rango Intercuartil (RIC):} Direfencia entre el tercer y primer cuartil ($Q_{3} - Q_{1}$).
+	
+	\vspace{3mm}
+	\par \textbf{Varianza Muestral:}
+	\[
+		\sigma^{2} = S^{2} = \frac{\sum_{i=1}^{n} {(x_{i} - \overline{x})}^{2}}{n - 1}
+	\]
+	
+	\vspace{3mm}
+	\par \textbf{Desviación Estándar Muestral:}
+	\[
+		\sigma = S = \sqrt{\frac{\sum_{i=1}^{n} {(x_{i} - \overline{x})}^{2}}{n - 1}}
+	\]
+	
+	\vspace{3mm}
+	\par \textbf{Fórmula para calcular $S^{2}$:}
+	\[
+		S^{2} = \sum_{i=1}^{n} x_{i}^{2} - \frac{{(\sum_{i=1}^{n} x_{i})}^{2}}{n}
+	\]
+	
+	\vspace{3mm}
+	\par \textbf{Proposición:} Sea $x_{1}, x_{2} \dotsc x_{n}$ una muestra y c cualquier constante distinta de cero, entonces:
+	\begin{itemize}
+		\item Si $y_{1} = x_{1} + c$, $y_{2} = x_{2} + c \dotsc$ $y_{n} = x_{n} + c \Rightarrow S_{y}^{2} = S_{x}^{2}$ 
+		\item Si $y_{1} = c \; x_{1}$, $y_{2} = c \; x_{2} \dotsc$ $y_{n} = c \; x_{n} \Rightarrow S_{y} = \lvert c \rvert \; S_{x}$ 
+	\end{itemize}
+	
+	\vspace{3mm}
+	\par \textbf{Coeficiente de Variación:} $\qquad \frac{S}{\overline{x}} \; 100\%$
+	
+	\vspace{3mm}
+	\par \textbf{Diagramas de caja (Box Plot):}
+	\begin{enumerate}
+		\item Ordenar los datos de menor a mayor.
+		\item Calcular $\widetilde{x}, Q_{1}, Q_{3}$ y RIC.
+		\item Sobre un eje vertical u horizontal marcar los valores extremos ($x_{1}, x_{n}$) y los cuartiles ($Q_{1}$ y $Q_{3}$).
+		\item Sobre este eje dibujar una caja, cuyo borde izquierdo sea $Q_{1}$ y el derecho $Q_{3}$.
+		\item Dentro de la caja trazar una línea sobre la mediana.
+		\item Trazar segmentos desde cada extremo de la caja hasta las observaciones más alejadas que no superen 1,5 RIC de los brodes correspondientes.
+		\item Marcar con circunferencias aquellos puntos comprendidos entre 1,5 RIC y 3 RIC respecto del borde más cercano, esos son los puntos llamados \textit{anómalos suaves} y con asteríscos aquellos puntos que superen 3 RIC, estos puntos son llamados puntos \textit{anómalos extremos}.
+	\end{enumerate}
+	
+	\begin{center}
+    	\includegraphics[width=12cm, height=3cm]{./graphics/box_plot.png}
+	\end{center}
+	
+
 \chapter{Probabilidad}
 	\section{Modelo Probabilístico}
 		\par \textbf{Espacio Muestral:} Es el conjunto de todos los resultados posibles del experimento. Se lo denota S.

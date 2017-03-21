@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  17 MAR 2017 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  20 MAR 2017 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,86 +732,93 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Cap\'{\i }tulo 1.
 [2
 
-]
+] [3] <./graphics/box_plot.png, id=26, 564.1075pt x 95.35625pt>
+File: ./graphics/box_plot.png Graphic file (type png)
+
+<use ./graphics/box_plot.png>
+Package pdftex.def Info: ./graphics/box_plot.png used on input line 162.
+(pdftex.def)             Requested size: 341.43672pt x 85.36148pt.
+ [4 <./graphics/box_plot.png>]
 Cap\'{\i }tulo 2.
-[3
+[5
 
 ]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 72.
+(amsmath)                 on input line 210.
 
-[4] [5]
+[6] [7]
 Cap\'{\i }tulo 3.
-[6
-
-]
-Cap\'{\i }tulo 4.
-[7
-
-]
-Cap\'{\i }tulo 5.
 [8
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [9
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [10
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 6.
 [11
 
 ]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 136.
+Cap\'{\i }tulo 7.
+[12
+
+]
+Cap\'{\i }tulo 8.
+[13
+
+]
+LaTeX Font Info:    Try loading font information for U+lasy on input line 274.
  (/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<graphics/github.png, id=50, 1204.5pt x 632.3625pt>
+<graphics/github.png, id=62, 1204.5pt x 632.3625pt>
 File: graphics/github.png Graphic file (type png)
  <use graphics/github.png>
-Package pdftex.def Info: graphics/github.png used on input line 143.
+Package pdftex.def Info: graphics/github.png used on input line 281.
 (pdftex.def)             Requested size: 28.45274pt x 14.93674pt.
 
-[12
+[14
 
  <./graphics/github.png (PNG copy)>] (./prob.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4676 strings out of 494447
- 64818 string characters out of 6166766
- 139194 words of memory out of 5000000
- 7898 multiletter control sequences out of 15000+600000
+ 4682 strings out of 494447
+ 64952 string characters out of 6166766
+ 140194 words of memory out of 5000000
+ 7902 multiletter control sequences out of 15000+600000
  58928 words of font info for 57 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 33i,6n,30p,481b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,10n,30p,481b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}{/us
-r/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/loc
-al/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texliv
-e/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
-6basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2016basi
+r/local/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loc
+al/texlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/te
+xlive/2016basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/201
+6basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</usr/local/texlive/2016basi
 c/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/local/texliv
 e/2016basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/201
 6basic/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2016bas
 ic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2016basic/te
 xmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016basic/texmf-d
-ist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016basic/texmf-dist/fo
-nts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
-pe1/public/lm/lmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/pu
-blic/lm/lmr8.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm
-/lmri12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
->
-Output written on prob.pdf (13 pages, 208118 bytes).
+ist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016basic/texmf-dist/fo
+nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
+pe1/public/lm/lmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/pu
+blic/lm/lmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/l
+m/lmr6.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmr8.
+pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb><
+/usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
+local/texlive/2016basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on prob.pdf (15 pages, 243635 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
